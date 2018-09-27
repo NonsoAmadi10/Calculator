@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<meta charset="utf-8">	
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<header>
+		<h1><span>CHINONSO's</span> CALCULATOR </h1>
+	</header>
+<div id ="message">
+	<form name ="form">
+		<input class ="textview" name ="textview">
+		<div class ="buttons">
+			<input type ="button" value ="C" onclick="clear()">
+			<input type ="button" value ="/" onclick = "insert('/')">
+			<input type ="button" value ="X" onclick ="insert('*')">
+			<input type ="button" value ="<-" onclick = "back()"><br>
+			<input type ="button" value ="7" onclick ="insert(7)">
+			<input type ="button" value ="8" onclick="insert(8)">
+			<input type ="button" value ="9" onclick = "insert(9)">
+			<input type ="button" value ="-" onclick ="insert('-')"><br>
+			<input type ="button" value ="4" onclick = "insert(4)">
+			<input type ="button" value ="5" onclick = "insert(5)">
+			<input type ="button" value ="6" onclick = "insert(6)">
+			<input type ="button" value ="+" onclick = "insert ('+')"><br>
+			<input type ="button" value ="1" onclick="insert(1)">
+			<input type ="button" value ="2"onclick="insert(2)">
+			<input type ="button" value ="3"onclick="insert(3)">
+			<input type ="button" value ="="onclick="equal()"><br>
+			<input type ="button" value ="0" id = "btn"onclick="insert(0)">
+			<input type ="button" value ="." onclick = "insert('.')">
+			<input type = "button" value = "SIN" onclick ="soh()"  id ="peel">
+			<input type ="button" value = "COS" onclick ="cah()"  id ="peel"><br>
+			<input type ="button" value = "log" onclick ="indie()" id ="log">
+			<input type ="button" value = "sqrt" onclick ="square()"  id = "eel">
+			<input type ="button" value = "TAN" onclick ="toa()"  id = "peel" >
+			
+			
+
+
+		</div>
+	</form>
+
+</div>
+
+<p></p>
+<br>
+
+
+
+</body>
+<script src ="playin.js"></script>
+
+</html>
